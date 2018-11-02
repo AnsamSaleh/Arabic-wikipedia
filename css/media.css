@@ -1,0 +1,35 @@
+@media (max-width: 425px){
+
+}
+@media (max-width: 767px){
+    .carousel-inner img{
+        height: 250px;
+    }
+    .wikipedia .sidebar{
+        height: 150px;
+    }
+}
+
+@media (min-width: 768px){
+    .carousel-inner img{
+        height: 580px;
+    }
+
+}
+
+@media (min-width: 1024px){
+    nav .nav-item .nav-link{
+        font-size: 1.2rem;
+    }
+    nav .nav-item.search input{
+        width: 0;
+    }
+    nav .nav-item.search:hover input{
+        width: 150px;
+        -webkit-transition: width 2s ease-in-out;
+        -moz-transition: width 2s ease-in-out;
+        -o-transition: width 2s ease-in-out;
+        transition: width 2s ease-in-out;
+    }
+}
+
